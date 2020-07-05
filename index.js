@@ -36,7 +36,7 @@ window.onload = function(){
                   for (var index = 0; index < 9; index++) {
                     cells.push(new cc.Sprite("resources/" + Math.floor(Math.random() * 7) + "_element.jpg"));
                     this.addChild(cells[index], 0);
-                    cc.log(cells[index]);
+                    cells[index].setScale(1.6);
                   }
                   //Cells positioning function for Rows
                   var cellsPositioning = function(initialIndex, maxIndex, yAxisIndex) {
@@ -69,7 +69,8 @@ window.onload = function(){
                         //Randomizing our cells
                         cells[index].id = Math.floor(Math.random() * 7);
                         cells[index].setTexture("resources/" + cells[index].id + "_element.jpg");
-                        console.log(cells[index].id);
+                        
+              
                       }
                     }, 100)
                     setTimeout(function() { 
@@ -84,7 +85,9 @@ window.onload = function(){
                   }
                   //CheckWin Function
                   var checkWin = function () {
-                    if (cells[3].id === cells[4].id && cells[3].id === cells[5].id && cells[4].id === cells[5].id) {
+                    if (cells[3].id === cells[4].id 
+                        && cells[3].id === cells[5].id 
+                        && cells[4].id === cells[5].id) {
                       resultOfSpin = "Win";
                     }
                     else{
