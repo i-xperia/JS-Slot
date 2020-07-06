@@ -4,7 +4,7 @@
 	<dict>
 		<key>frames</key>
 		<dict>
-			<key>icons/CC.png</key>
+			<key>icons/0.png</key>
 			<dict>
 				<key>frame</key>
 				<string>{{243,1},{241,158}}</string>
@@ -15,7 +15,7 @@
 				<key>sourceSize</key>
 				<string>{241,158}</string>
 			</dict>
-			<key>icons/DD.png</key>
+			<key>icons/1.png</key>
 			<dict>
 				<key>frame</key>
 				<string>{{486,1},{241,158}}</string>
@@ -26,7 +26,7 @@
 				<key>sourceSize</key>
 				<string>{241,158}</string>
 			</dict>
-			<key>icons/EE.png</key>
+			<key>icons/2.png</key>
 			<dict>
 				<key>frame</key>
 				<string>{{1,1},{240,159}}</string>
@@ -37,7 +37,7 @@
 				<key>sourceSize</key>
 				<string>{240,159}</string>
 			</dict>
-			<key>icons/WC.png</key>
+			<key>icons/3.png</key>
 			<dict>
 				<key>frame</key>
 				<string>{{729,1},{240,158}}</string>
@@ -48,7 +48,7 @@
 				<key>sourceSize</key>
 				<string>{240,158}</string>
 			</dict>
-			<key>icons/WC_X2.png</key>
+			<key>icons/4.png</key>
 			<dict>
 				<key>frame</key>
 				<string>{{971,1},{240,158}}</string>
@@ -59,7 +59,7 @@
 				<key>sourceSize</key>
 				<string>{240,158}</string>
 			</dict>
-			<key>icons/BL.png</key>
+			<key>icons/5.png</key>
 			<dict>
 				<key>frame</key>
 				<string>{{1697,1},{240,102}}</string>
@@ -70,7 +70,7 @@
 				<key>sourceSize</key>
 				<string>{240,102}</string>
 			</dict>
-			<key>icons/AA.png</key>
+			<key>icons/6.png</key>
 			<dict>
 				<key>frame</key>
 				<string>{{1213,1},{240,158}}</string>
@@ -81,7 +81,7 @@
 				<key>sourceSize</key>
 				<string>{240,158}</string>
 			</dict>
-			<key>icons/BB.png</key>
+			<key>icons/7.png</key>
 			<dict>
 				<key>frame</key>
 				<string>{{1455,1},{240,158}}</string>
