@@ -87,7 +87,7 @@ window.onload = function(){
                       spinning = false
                       //Changing Button Texture back to normal
                       spinButton.loadTextures("resources/button_enabled.png");
-                    }, 3000);
+                    }, 10000);
                   }
                   //CheckWin Function
                   var checkWin = function () {
